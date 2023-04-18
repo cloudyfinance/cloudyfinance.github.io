@@ -640,8 +640,7 @@ footer .social-area ul.social-list li:first-child {
   border-color: #9C9AF4;
 }
 .home-page .bottom-home-page {
-  padding-top: 168px;
-  padding-bottom: 408px;
+  padding-bottom: 210px;
 }
 .home-page .bottom-home-page .documentation {
   background: transparent;
@@ -655,6 +654,9 @@ footer .social-area ul.social-list li:first-child {
 }
 .home-page .bottom-home-page .documentation p {
   margin-bottom: 34px;
+}
+.home-page .bottom-home-page .instruction .about-cloudy {
+  height: 173px;
 }
 .home-page .bottom-home-page .instruction .about-cloudy h4.title {
   font-size: 18px;
