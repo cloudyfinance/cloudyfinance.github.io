@@ -764,5 +764,18 @@ footer .social-area ul.social-list li:first-child {
   display: inline-block;
   width: 100%;
 }
+.trade-page .trade-main .trade-form input.trade-form-input::placeholder {
+  color: #fff;
+}
+.trade-page .trade-main .trade-form .text-end {
+  color: #fff;
+}
+.trade-page .trade-main .fees-area {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding: 0.5rem 0;
+}
 
 /*# sourceMappingURL=style.css.map */

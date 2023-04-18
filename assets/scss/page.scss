@@ -100,6 +100,19 @@
 			    display: inline-block;
 			    width: 100%;
 			}
+			input.trade-form-input::placeholder {
+				color: #fff;
+			}
+			.text-end {
+				color: #fff;
+			}
+		}
+		.fees-area {
+		    display: flex;
+		    align-items: center;
+		    flex-wrap: nowrap;
+		    width: 100%;
+		    padding: 0.5rem 0;
 		}
     }
 }
