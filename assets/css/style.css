@@ -547,7 +547,7 @@ footer .social-area ul.social-list li:first-child {
 }
 
 .home-page {
-  background: #F8F8FC;
+  background: url(../images/top-home-bg.png) center center repeat;
 }
 .home-page .about-cloudy {
   background: #FFFFFF;
@@ -582,8 +582,6 @@ footer .social-area ul.social-list li:first-child {
   border-color: #9C9AF4;
 }
 .home-page .top-home-page {
-  background: url(../images/top-home-bg.png) center center no-repeat;
-  background-size: cover;
   padding-top: 280px;
   padding-bottom: 200px;
 }
