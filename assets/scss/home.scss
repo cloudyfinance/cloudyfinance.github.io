@@ -1,0 +1,124 @@
+.home-page {
+	background: #F8F8FC;
+	.about-cloudy {
+		background: #FFFFFF;
+		box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05);
+		border-radius: 5px;
+		padding: 35px 25px;
+		margin-bottom: 24px;
+		h4.title {
+			font-size: 24px;
+			line-height: 29px;
+			margin-bottom: 15px;
+		}
+		p {
+			font-size: 16px;
+			line-height: 24px;
+			color: #616161;
+		    margin-bottom: 34px;
+		}
+		a {
+			padding: 14px 19px;
+			font-size: 18px;
+			line-height: 22px;
+			color: #9C9AF4;
+			border: 0.5px solid #E0E0E0;
+			border-radius: 5px;
+			i {
+				margin-left: 26px;
+			}
+		}
+		a:hover {
+			border-color: #9C9AF4;
+		}
+	}	
+	.top-home-page {
+		background: url(../images/top-home-bg.png) center center no-repeat;
+    	background-size: cover;
+    	padding-top: 224px;
+    	padding-bottom: 77px;
+    	.home-banner {
+    		.home-title {
+    			margin-bottom: 27px;
+    			.home-title-medium {
+	    			font-size: 30px;
+					line-height: 36px;
+	    		}
+    		}
+    		#play-btn {
+    			color: #9C9AF4;
+    			i {
+    				margin-right: 12px;
+    			}
+    		}
+    		#play-btn:hover {
+    			color: #424242;
+    		}
+    	}
+    	#home-instruction {
+    		padding-top: 155px;
+    		position: relative;
+    		.documentation {
+    			padding-top: 264px!important;
+    		}
+    		.about-cloudy {
+				.img {
+					text-align: center;
+					margin-bottom: 41px;
+				}
+				.description {
+					h4.title {
+						font-size: 20px;
+						line-height: 24px;
+					}
+				}
+    		}
+    		.instruction {
+    			button.btn {
+    				background: #FFFFFF;
+					box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05);
+					border-radius: 5px;
+					font-size: 18px;
+					line-height: 22px;
+					color: #7B72DF;
+					width: 100%;
+					padding: 19px 23px;
+					text-align: left;
+					border-color: transparent;
+					i {
+						float: right;
+					}
+    			}
+    			button.btn:hover {
+    				border-color:#9C9AF4;
+    			}
+    		}
+    	}
+	}
+	.bottom-home-page {
+		padding-top: 168px;
+		padding-bottom: 408px ;
+		.documentation {
+			background: transparent;
+			box-shadow: revert;
+			padding: 0;
+			margin-bottom: 52px;
+			a {
+				padding: 0;
+				border: 0;
+			}
+		}
+		.instruction  {
+			.about-cloudy {
+				h4.title {
+					font-size: 18px;
+					line-height: 22px;
+					margin-bottom: 9px;
+				}
+				p {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
