@@ -653,6 +653,9 @@ footer .social-area ul.social-list li:first-child {
   padding: 0;
   border: 0;
 }
+.home-page .bottom-home-page .documentation p {
+  margin-bottom: 34px;
+}
 .home-page .bottom-home-page .instruction .about-cloudy h4.title {
   font-size: 18px;
   line-height: 22px;
