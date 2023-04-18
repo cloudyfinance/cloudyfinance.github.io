@@ -40,7 +40,7 @@
                                     <div class="collapse navbar-collapse" id="navbar-header">
                                         <ul class="navbar-nav menu-header ms-auto mb-2 mb-lg-0 align-items-lg-center">
                                             <li>
-                                                <a class="nav-link" href="trade.html">Trade</a>
+                                                <a class="nav-link" href="">Trade</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="">Rain</a>
@@ -62,90 +62,114 @@
                     </nav>
                 </header>
             </div>
-            <main class="home-page" style="">
-                <div class="top-home-page">
-                    <div class="container">
-                        <article class="home-banner">
-                            <div class="home-title">
-                                <div class="home-title-medium">Cloudy Finance brings clear skies ahead</div>
-                                <h1 class="home-banner-title">Simplify DeFi with our user-friendly solution</h1>                         
+            <main class="trade-page" style="">
+                <article class="trade-main mx-auto p-3 mb-3 " id="">
+                    <div class="d-flex align-items-center justify-content-between mb-14">
+                        <div class="text-btn">
+                            <button type="button" class="btn btn-primary">Swap</button>
+                        </div>
+                        <div class="icon-btn">
+                            <button type="button" class="btn btn-primary"><i class="fa-solid fa-arrow-rotate-right fa-spin"></i></button>
+                            <button type="button" class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
+                            <button type="button" class="btn btn-primary"><i class="fa-solid fa-sliders"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="trade-form pb-1">
+                        <div class="trade-form-item mb-1">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="dropdown bootstrap-select trade-form-select mb-1">
+                                        <select class="selectpicker trade-form-select mb-1" name="from">
+                                            <option value="usdt" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/usdt_logo.png' /></span>USDT</div>">USDT</option>
+                                            <option value="usdc" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/usdc_logo.png' /></span>USDC</div>">USDC</option>
+                                            <option value="dai" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/dai_logo.png' /></span>DAI</div>">DAI</option>
+                                        </select>
+                                        <!-- <button type="button" tabindex="-1" class="btn dropdown-toggle btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-1" aria-haspopup="listbox" aria-expanded="false" title="USDT">
+                                            <div class="filter-option">
+                                                <div class="filter-option-inner">
+                                                    <div class="filter-option-inner-inner">
+                                                        <div class="trade-form-item-select">
+                                                            <span><img src="./assets/images/usdt_logo.png"></span>USDT
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </button> -->
+                                        <div class="dropdown-menu ">
+                                            <div class="inner show" role="listbox" id="bs-select-1" tabindex="-1">
+                                                <ul class="dropdown-menu inner show" role="presentation"></ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="f-14 f-400">Balance: <span class="user-from-bal">0.000000</span></div>
+                                </div>
+                                <div class="col-7">
+                                    <input class="trade-form-input" name="amountIn" placeholder="0.0" autofocus="" value="">
+                                    <div class="text-end">
+                                        <span class=" f-roboto f-14 f-400">$</span>
+                                        <span class="text-white f-700 f-roboto f-14 from-volume">0.0</span>
+                                    </div>
+                                </div>
                             </div>
-                            <a href="#" id="play-btn" ><i class="fa-solid fa-forward"></i>Play Video</a>
-                        </article>
+                        </div>
 
-                        <article class="home-instruction" id="home-instruction">
-                            <div class="">
-                                <div class="row ">
-                                    <div class="col-lg-9">
-                                        <div class="about-cloudy documentation">
-                                            <h4 class="title">We turn the community's vision into action</h4>
-                                            <p>Cloudy Finance places the governance of its protocol in the hands of a decentralized assembly of CUD token holders who utilize a democratic process to propose and cast votes on modifications to the protocol, ensuring a transparent and community-driven decision-making approach.</p>
-                                            <a href="#">Written materials <i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                        <div class="instruction ">
-                                            <div class="row">
-                                                <div class="col-lg-6">
-                                                    <a type="button" class="btn btn-primary">Twitter<i class="fa-solid fa-arrow-right"></i></a>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <a href="https://github.com/cloudyfinance" target="_blank" type="button" class="btn btn-primary">Github<i class="fa-solid fa-arrow-right"></i></a>
-                                                </div>
+                        <img src="./assets/images/trade.svg" class="cursor-pointer icon-swap btn-reverse-pair">
+
+                        <div class="trade-form-item">
+                            <div class="row">
+                                <div class="col-5">
+                                    <div class="dropdown bootstrap-select trade-form-select mb-1">
+                                        <select class="selectpicker trade-form-select mb-1" name="to">
+                                            <option value="usdc" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/usdc_logo.png' /></span>USDC</div>">USDC</option>
+                                            <option value="usdt" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/usdt_logo.png' /></span>USDT</div>">USDT</option>
+                                            <option value="dai" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/dai_logo.png' /></span>DAI</div>">DAI</option>
+                                        </select>
+                                        <!-- <button type="button" tabindex="-1" class="btn dropdown-toggle btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" title="USDC">
+                                            <div class="filter-option">
+                                                <div class="filter-option-inner">
+                                                    <div class="filter-option-inner-inner">
+                                                        <div class="trade-form-item-select">
+                                                            <span><img src="./assets/images/usdc_logo.png"></span>USDC
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </button> -->
+                                        <div class="dropdown-menu ">
+                                            <div class="inner show" role="listbox" id="bs-select-2" tabindex="-1">
+                                                <ul class="dropdown-menu inner show" role="presentation"></ul>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
-                                        <div class="about-cloudy">
-                                            <div class="img">
-                                                <img src="assets/images/cloudy.png" alt="">
-                                            </div>
-                                            <div class="description">
-                                                <h4 class="title">Join the adventure</h4>
-                                                <p>At Cloudy Finance, we present a community-driven and capital efficient DEX that is designed to support the zkSync ecosystem with flexibility and innovation.</p>
-                                            </div>
-                                           
-                                        </div>
+                                    <div class=" f-roboto f-14 f-400">Balance: <span class="user-to-bal">0.000000</span></div>
+                                </div>
+                                <div class="col-7">
+                                    <input class="trade-form-input" placeholder="0.0" name="amountOut" readonly="">
+                                    <div class="text-end">
+                                        <span class=" f-roboto f-14 f-400">$</span>
+                                        <span class="text-white f-700 f-roboto f-14 to-volume">0.0</span>
                                     </div>
                                 </div>
                             </div>
-                        </article>
+                        </div>
                     </div>
-                </div>
-                <div class="bottom-home-page">
-                    <div class="container">
-                        <article class="home-instruction" id="home-instruction">
-                            <div class="">
-                                <div class="row ">
-                                    <div class="col-lg-8">
-                                        <div class="about-cloudy documentation">
-                                            <h4 class="title">All-in-one zkSync DeFi apps at Cloudy Finance's hub</h4>
-                                            <p>Discover an easy all-in-one solution for managing your zkSync DeFi applications, earning passive income, swapping assets and more with Cloudy Finance's hub. Access a variety of DeFi apps from a single location, streamlining your DeFi portfolio management for optimal growth and profitability</p>
-                                            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        
-                                    </div>
-                                    <div class="instruction ">
-                                        <div class="row">
-                                            <div class="col-lg-6">
-                                                <div class="about-cloudy">
-                                                    <h4 class="title">Trade anything with ease, no registration required</h4>
-                                                    <p>Trade any token on the zkSync network without any hassle or delays. Our platform enables users to easily connect their wallets and trade quickly and efficiently.</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="about-cloudy">
-                                                    <h4 class="title">Passively grow your crypto holdings</h4>
-                                                    <p>Effortlessly grow your crypto holdings with Cloudy Finance's powerful tools, allowing your assets to work for you.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="d-flex align-items-center justify-content-between ">
+                        <div class="fees-area">
+                            <div class="position-card__row__info">
+                                <p class="body">Fees</p>
                             </div>
-                        </article>
+                            <div class="position-card__row__balance">
+                                <p class="body body--link ">
+                                    <span class="" style=""><span class="swap-fee">0</span>%</span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <button type="button" class="header__btn-connect w-100 text-center button-approve" style="display:none">Approve</button>
+                    <button type="button" class="header__btn-connect w-100 text-center button-swap">Swap</button>
+
+                </article>
             </main>
             <div class="container" style="position: relative;">
                 <footer class="footer">

@@ -1,0 +1,105 @@
+.trade-page {
+	background: url(../images/top-home-bg-min.png) top center no-repeat;
+    background-size: cover;
+    padding: 175px 0;
+    min-height: calc(100vh - 0px);
+    .trade-main {
+	   	background: #FFFFFF;
+		box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05);
+		border-radius: 5px;
+		width: 500px;
+		.text-btn {
+			button {
+				background: transparent;
+				border: 0.5px solid transparent;
+				color: #9C9AF4;
+				outline: 0;
+			}
+			button:hover {
+				border: 0.5px solid #9C9AF4 ;
+			}
+			button:focus {
+			  box-shadow: revert ;
+			  background:#9C9AF4;
+			  color: #fff;
+			}
+		}
+		.icon-btn {
+			button {			
+    			border-radius: 12px;
+    			background: transparent;
+    			border: 0.5px solid transparent;
+    			color: #9C9AF4;
+    			outline: 0;
+			}
+			button:hover {
+				border: 0.5px solid #9C9AF4 ;
+			}
+			button:focus {
+			  box-shadow: revert ;
+			  background:#9C9AF4;
+			  color: #fff;
+			}
+		}
+		.trade-form {
+		    position: relative;
+		    .icon-swap {
+	    	    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    -webkit-transform: translate(-50%, -50%);
+			    transform: translate(-50%, -50%);
+		    }
+		    .trade-form-item {
+		    	background: #9C9AF4;
+		    	padding: 20px;
+		    	border-radius: 5px;
+		    	.dropdown-toggle {
+		    		background: #9C9AF4;
+				    border: 0.5px solid #fff;
+				    border-radius: 8px;
+				    height: 34px;
+				    padding: 0 12px;
+				    width: auto;
+				    font-size: 16px;
+				    line-height: 20px;
+				    color: #fff !important;
+				    div {
+				    	height: 100%;
+				    }		    
+		    	}
+		    	.trade-form-item-select {
+		    		span {
+		    			position: relative;
+					    top: 0px;
+					    width: 24px;
+					    height: 24px;
+					    display: inline-block;
+					    border-radius: 50%;
+					    margin-right: 8px;
+		    		}
+		    	}
+		    	.trade-form-item-select {
+		    		display: -webkit-box;
+				    display: -ms-flexbox;
+				    display: flex;
+				    -webkit-box-align: center;
+				    -ms-flex-align: center;
+				    align-items: center;
+		    	}
+		    }
+		    .trade-form-input {
+			    border: 0;
+			    text-align: right;
+			    outline: none;
+			    font-weight: bold;
+			    font-size: 24px;
+			    line-height: 30px;
+			    color: #FFFFFF;
+			    background: transparent;
+			    display: inline-block;
+			    width: 100%;
+			}
+		}
+    }
+}
