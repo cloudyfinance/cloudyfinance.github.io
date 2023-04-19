@@ -820,6 +820,76 @@ footer .social-area ul.social-list li:first-child {
   color: #9C9AF4;
   padding: 40px;
 }
+.page .rain-page .rain-table .table-tool .head-table {
+  overflow: auto;
+}
+.page .rain-page .rain-table .table-tool .head-table h4.title {
+  font-size: 32px;
+  line-height: 40px;
+  width: fit-content;
+  float: left;
+}
+.page .rain-page .rain-table .table-tool .head-table button.btn {
+  float: right;
+  background: transparent;
+  border: 0;
+  color: #9C9AF4;
+}
+.page .rain-page .rain-table .table-tool .head-table button:hover {
+  color: #fff;
+  background: #9C9AF4;
+}
+.page .rain-page .rain-table .table-tool .head-table button:focus {
+  box-shadow: revert;
+}
+.page .rain-page .rain-table .table-tool .tool {
+  overflow: auto;
+  margin-bottom: 40px;
+  position: relative;
+}
+.page .rain-page .rain-table .table-tool .tool .search-bar {
+  width: 40%;
+  float: left;
+}
+.page .rain-page .rain-table .table-tool .tool .search-bar p {
+  margin-bottom: 4px;
+}
+.page .rain-page .rain-table .table-tool .tool .search-bar .input-group input {
+  border-color: #9C9AF4;
+  border-radius: 4px;
+}
+.page .rain-page .rain-table .table-tool .tool .search-bar .input-group input::placeholder {
+  color: #9C9AF4;
+}
+.page .rain-page .rain-table .table-tool .tool .search-bar .input-group span.input-group-text {
+  background: transparent;
+  border: 0;
+  color: #9C9AF4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.page .rain-page .rain-table .table-tool .tool .tab-bar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.page .rain-page .rain-table .table-tool .tool .tab-bar .masthead {
+  border: 1px solid #9C9AF4;
+}
+.page .rain-page .rain-table .table-tool .tool .tab-bar .masthead button.button {
+  height: 32px;
+  width: 64px;
+  font-size: 11px;
+  border: 0;
+  background: transparent;
+  color: #9C9AF4;
+}
+.page .rain-page .rain-table .table-tool .tool .tab-bar .masthead button.button:hover {
+  background: #9C9AF4;
+  color: #Fff;
+}
 .page .rain-page .rain-table table.token-table {
   width: 100%;
   font-size: 16px;

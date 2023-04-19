@@ -156,6 +156,80 @@
 			border-radius: 5px;
 			color: #9C9AF4;
 			padding: 40px;
+			.table-tool {
+				.head-table {
+					overflow: auto;
+					h4.title {
+						font-size: 32px;
+    					line-height: 40px;
+    					width: fit-content;
+    					float: left;
+					}
+					button.btn {
+						float: right;
+						background: transparent;
+						border: 0;
+						color:#9C9AF4;
+					}
+					button:hover {
+						color: #fff;
+						background:#9C9AF4 ;
+					}
+					button:focus {
+						box-shadow: revert;
+					}
+				}
+				.tool {
+				    overflow: auto;
+					margin-bottom: 40px;
+					position: relative;
+					.search-bar {
+						width: 40%;
+						float: left;
+						p {
+							margin-bottom: 4px;
+						}
+						.input-group {
+							input {
+								border-color: #9C9AF4;
+								border-radius: 4px;
+							}
+							input::placeholder {
+								color: #9C9AF4;
+							}
+							span.input-group-text {
+								background: transparent;
+								border: 0;
+								color: #9C9AF4;
+								position: absolute;
+							    top: 0;
+							    bottom: 0;
+							    right: 0;
+							}
+						}
+					}
+					.tab-bar {
+						position: absolute;
+						bottom: 0;
+						right: 0;
+						.masthead {
+							border: 1px solid #9C9AF4;
+							button.button {
+								height: 32px;
+								width: 64px;
+								font-size: 11px;
+								border: 0;
+								background: transparent;
+								color: #9C9AF4;
+							}
+							button.button:hover {
+								background: #9C9AF4;
+								color: #Fff;
+							}
+						}
+					}
+				}
+			}
 			table.token-table {
 				width: 100%;
 			    font-size: 16px;
