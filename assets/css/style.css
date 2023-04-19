@@ -665,77 +665,68 @@ footer .social-area ul.social-list li:first-child {
   margin-bottom: 0;
 }
 
-.trade-page {
+.page {
   background: url(../images/top-home-bg-min.png) top center no-repeat;
   background-size: cover;
   padding: 175px 0;
   min-height: calc(100vh - 0px);
 }
-.trade-page .trade-main {
+.page .trade-main {
   background: #FFFFFF;
   box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   width: 500px;
-}
-.trade-page .trade-main .text-btn button {
-  background: transparent;
-  border: 0.5px solid transparent;
   color: #9C9AF4;
-  outline: 0;
 }
-.trade-page .trade-main .text-btn button:hover {
-  border: 0.5px solid #9C9AF4;
-}
-.trade-page .trade-main .text-btn button:focus {
-  box-shadow: revert;
-  background: #9C9AF4;
-  color: #fff;
-}
-.trade-page .trade-main .icon-btn button {
+.page .trade-main .icon-btn button {
   border-radius: 12px;
   background: transparent;
   border: 0.5px solid transparent;
   color: #9C9AF4;
   outline: 0;
 }
-.trade-page .trade-main .icon-btn button:hover {
+.page .trade-main .icon-btn button:hover {
   border: 0.5px solid #9C9AF4;
 }
-.trade-page .trade-main .icon-btn button:focus {
+.page .trade-main .icon-btn button:focus {
   box-shadow: revert;
   background: #9C9AF4;
   color: #fff;
 }
-.trade-page .trade-main .trade-form {
+.page .trade-main .trade-form {
   position: relative;
 }
-.trade-page .trade-main .trade-form .icon-swap {
+.page .trade-main .trade-form .icon-swap {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.trade-page .trade-main .trade-form .trade-form-item {
-  background: #9C9AF4;
+.page .trade-main .trade-form .trade-form-item {
+  background: transparent;
   padding: 20px;
+  border: 0.5px solid #9C9AF4;
   border-radius: 5px;
 }
-.trade-page .trade-main .trade-form .trade-form-item .dropdown-toggle {
-  background: #9C9AF4;
-  border: 0.5px solid #fff;
+.page .trade-main .trade-form .trade-form-item .dropdown-toggle {
+  background: transparent;
+  border: 0;
   border-radius: 8px;
   height: 34px;
   padding: 0 12px;
   width: auto;
   font-size: 16px;
   line-height: 20px;
-  color: #fff !important;
+  color: #9C9AF4 !important;
 }
-.trade-page .trade-main .trade-form .trade-form-item .dropdown-toggle div {
+.page .trade-main .trade-form .trade-form-item .dropdown-toggle div {
   height: 100%;
 }
-.trade-page .trade-main .trade-form .trade-form-item .trade-form-item-select span {
+.page .trade-main .trade-form .trade-form-item .dropdown-toggle:hover {
+  background: #F3F5FA;
+}
+.page .trade-main .trade-form .trade-form-item .trade-form-item-select span {
   position: relative;
   top: 0px;
   width: 24px;
@@ -744,7 +735,7 @@ footer .social-area ul.social-list li:first-child {
   border-radius: 50%;
   margin-right: 8px;
 }
-.trade-page .trade-main .trade-form .trade-form-item .trade-form-item-select {
+.page .trade-main .trade-form .trade-form-item .trade-form-item-select {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -752,30 +743,54 @@ footer .social-area ul.social-list li:first-child {
   -ms-flex-align: center;
   align-items: center;
 }
-.trade-page .trade-main .trade-form .trade-form-input {
+.page .trade-main .trade-form .from-input {
+  background: #F3F5FA;
+  border-color: #F3F5FA;
+}
+.page .trade-main .trade-form .from-input .dropdown-toggle:hover {
+  background: #fff;
+}
+.page .trade-main .trade-form .trade-form-input {
   border: 0;
   text-align: right;
   outline: none;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-  color: #FFFFFF;
+  color: #9C9AF4;
   background: transparent;
   display: inline-block;
   width: 100%;
 }
-.trade-page .trade-main .trade-form input.trade-form-input::placeholder {
-  color: #fff;
+.page .trade-main .trade-form input.trade-form-input::placeholder {
+  color: #9C9AF4;
 }
-.trade-page .trade-main .trade-form .text-end {
-  color: #fff;
+.page .trade-main .trade-form .text-end {
+  color: #9C9AF4;
 }
-.trade-page .trade-main .fees-area {
+.page .trade-main .fees-area {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
   width: 100%;
   padding: 0.5rem 0;
+}
+.page .trade-main .fees-area .position-card-row-balance {
+  margin-left: auto;
+}
+.page .trade-main .btn-connect {
+  padding: 14px 19px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #9C9AF4;
+  border: 0.5px solid #9C9AF4;
+  border-radius: 5px;
+  background: transparent;
+}
+.page .trade-main .btn-connect:hover {
+  color: #fff;
+  border-color: transparent;
+  background: #9C9AF4;
 }
 
 /*# sourceMappingURL=style.css.map */

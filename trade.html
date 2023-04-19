@@ -40,10 +40,10 @@
                                     <div class="collapse navbar-collapse" id="navbar-header">
                                         <ul class="navbar-nav menu-header ms-auto mb-2 mb-lg-0 align-items-lg-center">
                                             <li>
-                                                <a class="nav-link" href="">Trade</a>
+                                                <a class="nav-link" href="trade.html">Trade</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="">Rain</a>
+                                                <a class="nav-link" href="rain.html">Rain</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="">Storm</a>
@@ -62,12 +62,10 @@
                     </nav>
                 </header>
             </div>
-            <main class="trade-page" style="">
+            <main class="page" style="">
                 <article class="trade-main mx-auto p-3 mb-3 " id="">
                     <div class="d-flex align-items-center justify-content-between mb-14">
-                        <div class="text-btn">
-                            <button type="button" class="btn btn-primary">Swap</button>
-                        </div>
+                        <span>Swap</span>
                         <div class="icon-btn">
                             <button type="button" class="btn btn-primary"><i class="fa-solid fa-arrow-rotate-right fa-spin"></i></button>
                             <button type="button" class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
@@ -76,7 +74,7 @@
                     </div>
                     
                     <div class="trade-form pb-1">
-                        <div class="trade-form-item mb-1">
+                        <div class="trade-form-item from-input mb-1">
                             <div class="row">
                                 <div class="col-5">
                                     <div class="dropdown bootstrap-select trade-form-select mb-1">
@@ -102,13 +100,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="f-14 f-400" style="color: #Fff;">Balance: <span class="user-from-bal">0.000000</span></div>
+                                    <div class="f-14 f-400" style="color: #9C9AF4;">Balance: <span class="user-from-bal">0.000000</span></div>
                                 </div>
                                 <div class="col-7">
                                     <input class="trade-form-input" name="amountIn" placeholder="0.0" autofocus="" value="">
                                     <div class="text-end">
-                                        <span class=" f-roboto f-14 f-400">$</span>
-                                        <span class="text-white f-700 f-roboto f-14 from-volume">0.0</span>
+                                        <span class=" f-14 f-400">$</span>
+                                        <span class="f-700 f-14 from-volume" style="color: #9C9AF4;">0.0</span>
                                     </div>
                                 </div>
                             </div>
@@ -142,13 +140,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class=" f-roboto f-14 f-400" style="color: #Fff;">Balance: <span class="user-to-bal">0.000000</span></div>
+                                    <div class="f-14 f-400" style="color: #9C9AF4;">Balance: <span class="user-to-bal">0.000000</span></div>
                                 </div>
                                 <div class="col-7">
                                     <input class="trade-form-input" placeholder="0.0" name="amountOut" readonly="">
                                     <div class="text-end">
                                         <span class=" f-roboto f-14 f-400">$</span>
-                                        <span class="text-white f-700 f-roboto f-14 to-volume">0.0</span>
+                                        <span class="f-700 f-roboto f-14 to-volume" style="color: #9C9AF4;">0.0</span>
                                     </div>
                                 </div>
                             </div>
@@ -156,18 +154,18 @@
                     </div>
                     <div class="d-flex align-items-center justify-content-between ">
                         <div class="fees-area">
-                            <div class="position-card__row__info">
+                            <div class="position-card-row-info">
                                 <p class="body">Fees</p>
                             </div>
-                            <div class="position-card__row__balance">
+                            <div class="position-card-row-balance">
                                 <p class="body body--link ">
                                     <span class="" style=""><span class="swap-fee">0</span>%</span>
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <button type="button" class="header__btn-connect w-100 text-center button-approve" style="display:none">Approve</button>
-                    <button type="button" class="header__btn-connect w-100 text-center button-swap">Swap</button>
+                    <button type="button" class="btn-connect w-100 text-center button-approve" style="display:none;margin-bottom: 10px;">Approve</button>
+                    <button type="button" class="btn-connect w-100 text-center button-swap">Swap</button>
 
                 </article>
             </main>
