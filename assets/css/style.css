@@ -792,5 +792,83 @@ footer .social-area ul.social-list li:first-child {
   border-color: transparent;
   background: #9C9AF4;
 }
+.page .rain-page .deposit-and-earning {
+  overflow: auto;
+  margin-bottom: 60px;
+}
+.page .rain-page .deposit-and-earning #volume {
+  width: 50%;
+  float: left;
+  font-weight: bold;
+  color: #9C9AF4;
+}
+.page .rain-page .deposit-and-earning #volume p {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+.page .rain-page .deposit-and-earning #volume p.volume {
+  font-size: 64px;
+}
+.page .rain-page .deposit-and-earning .earning {
+  text-align: right;
+}
+.page .rain-page .rain-table {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  color: #9C9AF4;
+  padding: 40px;
+}
+.page .rain-page .rain-table table.token-table {
+  width: 100%;
+  font-size: 16px;
+}
+.page .rain-page .rain-table table.token-table thead {
+  font-size: 11px;
+}
+.page .rain-page .rain-table table.token-table thead th:last-child {
+  padding-right: 0;
+  text-align: right;
+}
+.page .rain-page .rain-table table.token-table tbody {
+  font-size: 15px;
+}
+.page .rain-page .rain-table table.token-table tbody td {
+  padding: 10px;
+  padding-left: 0;
+  font-size: 14px;
+}
+.page .rain-page .rain-table table.token-table tbody td .asset-row__detail-content {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+.page .rain-page .rain-table table.token-table tbody td .asset-row__detail-content .asset {
+  flex-shrink: 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+.page .rain-page .rain-table table.token-table tbody td .asset-row__detail-content .asset-row__info {
+  margin-left: 0.75rem;
+  width: 100%;
+}
+.page .rain-page .rain-table table.token-table tbody td .asset-row__detail-content .asset-row__info p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.page .rain-page .rain-table table.token-table tbody td .asset-row__detail-content .asset-row__info .meta {
+  font-size: 14px;
+}
+.page .rain-page .rain-table table.token-table tbody td:last-child {
+  padding-right: 0;
+  text-align: right;
+}
 
 /*# sourceMappingURL=style.css.map */

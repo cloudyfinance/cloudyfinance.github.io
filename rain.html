@@ -66,21 +66,61 @@
                 <div class="container">
                     <article class="rain-page">
                         <div class="deposit-and-earning">
-                            <div class="deposited-vol volume">
+                            <div id="volume" class="deposit">
                                 <p>Deposited</p>
-                                $ <span class="deposited-volume">0.00</span>
+                                <p class="volume">$ <span class="deposit-volume">0.00</span></p>
                             </div>
-                            <div class="earning-vol volume">
-                                <p>Deposited</p>
-                                $ <span class="earning-volume">0.00</span>
+                            <div id="volume" class="earning">
+                                <p>Earning</p>
+                                <p class="volume">$ <span class="earning-volume">0.00</span></p>
                             </div>
                         </div>
-                        <div class="rain-table p-3">
+                        <div class="rain-table">
+                            <div class="table-tool">
+                                <div class="head-table">
+                                    <h4 class="title">Featured Vaults</h4>
+                                    <button type="button" class="btn btn-primary"><i class="fa-solid fa-gear"></i></button>
+                                </div>
+                                <div class="tool">
+                                    <div class="search-bar">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                                            <span class="input-group-text" id="button-addon2"><i class="fas fa-search"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="tab-bar">
+                                        <div class="masthead">
+                                            <div class="masthead__action-buttons">
+                                                <div class="masthead__action-buttons">
+                                                    <button class="button button--large button--buy button-stable-swap-form">
+                                                        <label class="label">Stable Swap</label>
+                                                    </button>
+                                                    <button class="button button--large button--sell button-token-swap-form button-disabled">
+                                                        <label class="label">Token Swap</label>
+                                                    </button>
+                                                    <button class="button button--large button--buy button-stable-swap-form">
+                                                        <label class="label">Stable Swap</label>
+                                                    </button>
+                                                    <button class="button button--large button--sell button-token-swap-form button-disabled">
+                                                        <label class="label">Token Swap</label>
+                                                    </button>
+                                                    <button class="button button--large button--buy button-stable-swap-form">
+                                                        <label class="label">Stable Swap</label>
+                                                    </button>
+                                                    <button class="button button--large button--sell button-token-swap-form button-disabled">
+                                                        <label class="label">Token Swap</label>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
                             <table class="token-table">
                                 <thead>
                                     <tr>
                                         <th>TOKEN</th>
-                                        <th>PRICE</th>
+                                        <th>APY</th>
                                         <th>
                                             <span class="Tooltip">
                                                 <span class="Tooltip-handle">AVAILABLE</span>
@@ -89,12 +129,12 @@
                                         <th>WALLET</th>
                                         <th>
                                             <span class="Tooltip">
-                                                <span class="Tooltip-handle">BUY FEES</span>
+                                                <span class="Tooltip-handle">Deposited</span>
                                             </span>
                                         </th>
                                         <th>
                                             <span class="Tooltip">
-                                                <span class="Tooltip-handle">SELL FEES</span>
+                                                <span class="Tooltip-handle">TVL</span>
                                             </span>
                                         </th>
                                     </tr>
