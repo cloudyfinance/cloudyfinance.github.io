@@ -46,7 +46,7 @@
                                                 <a class="nav-link" href="rain.html">Rain</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="storm.html">Storm</a>
+                                                <a class="nav-link" href="">Storm</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="">Rainbow</a>
@@ -62,112 +62,70 @@
                     </nav>
                 </header>
             </div>
-            <main class="page" style="">
-                <article class="trade-main mx-auto p-3 mb-3 " id="">
-                    <div class="d-flex align-items-center justify-content-between mb-14">
-                        <span>Swap</span>
-                        <div class="icon-btn">
-                            <button type="button" class="btn btn-primary"><i class="fa-solid fa-arrow-rotate-right fa-spin"></i></button>
-                            <button type="button" class="btn btn-primary"><i class="fa-solid fa-plus"></i></button>
-                            <button type="button" class="btn btn-primary"><i class="fa-solid fa-sliders"></i></button>
-                        </div>
+            <main class="home-page" style="">
+                <div class="top-home-page">
+                    <div class="container">
+                        <article class="home-banner">
+                            <div class="home-title">
+                                <h1 class="home-banner-title">Simplify DeFi with our user-friendly solution</h1>                         
+                            </div>
+                        </article>
+
+                        <article class="launchpad" id="">
+                            <div class="">
+                                <div class="row ">
+                                    <div class="col-lg-4">
+                                        <div class="img">
+                                            <img src="" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <div class="infor">
+                                            <h4 class="name">Space ID</h4>
+                                            <p>A Web3 Identity Protocol with Multi-chain Name Service</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
                     </div>
-                    
-                    <div class="trade-form pb-1">
-                        <div class="trade-form-item from-input mb-1">
-                            <div class="row">
-                                <div class="col-5">
-                                    <div class="dropdown bootstrap-select trade-form-select mb-1">
-                                        <select class="selectpicker trade-form-select mb-1" name="from">
-                                            <option value="usdt" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/usdt_logo.png' /></span>USDT</div>">USDT</option>
-                                            <option value="usdc" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/usdc_logo.png' /></span>USDC</div>">USDC</option>
-                                            <option value="dai" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/dai_logo.png' /></span>DAI</div>">DAI</option>
-                                        </select>
-                                        <!-- <button type="button" tabindex="-1" class="btn dropdown-toggle btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-1" aria-haspopup="listbox" aria-expanded="false" title="USDT">
-                                            <div class="filter-option">
-                                                <div class="filter-option-inner">
-                                                    <div class="filter-option-inner-inner">
-                                                        <div class="trade-form-item-select">
-                                                            <span><img src="./assets/images/usdt_logo.png"></span>USDT
-                                                        </div>
-                                                    </div>
-                                                </div> 
+                </div>
+                <div class="bottom-home-page">
+                    <div class="container">
+                        <article class="home-instruction" id="home-instruction">
+                            <div class="">
+                                <div class="row ">
+                                    <div class="col-lg-8">
+                                        <div class="about-cloudy documentation">
+                                            <h4 class="title">All-in-one zkSync DeFi apps at Cloudy Finance's hub</h4>
+                                            <p>Discover an easy all-in-one solution for managing your zkSync DeFi applications, earning passive income, swapping assets and more with Cloudy Finance's hub. Access a variety of DeFi apps from a single location, streamlining your DeFi portfolio management for optimal growth and profitability</p>
+                                            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        
+                                    </div>
+                                    <div class="instruction ">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="about-cloudy">
+                                                    <h4 class="title">Trade anything with ease, no registration required</h4>
+                                                    <p>Trade any token on the zkSync network without any hassle or delays. Our platform enables users to easily connect their wallets and trade quickly and efficiently.</p>
+                                                </div>
                                             </div>
-                                        </button> -->
-                                        <div class="dropdown-menu ">
-                                            <div class="inner show" role="listbox" id="bs-select-1" tabindex="-1">
-                                                <ul class="dropdown-menu inner show" role="presentation"></ul>
+                                            <div class="col-lg-6">
+                                                <div class="about-cloudy">
+                                                    <h4 class="title">Passively grow your crypto holdings</h4>
+                                                    <p>Effortlessly grow your crypto holdings with Cloudy Finance's powerful tools, allowing your assets to work for you.</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="f-14 f-400" style="color: #9C9AF4;">Balance: <span class="user-from-bal">0.000000</span></div>
-                                </div>
-                                <div class="col-7">
-                                    <input class="trade-form-input" name="amountIn" placeholder="0.0" autofocus="" value="">
-                                    <div class="text-end">
-                                        <span class=" f-14 f-400">$</span>
-                                        <span class="f-700 f-14 from-volume" style="color: #9C9AF4;">0.0</span>
-                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <img src="./assets/images/trade.svg" class="cursor-pointer icon-swap btn-reverse-pair">
-
-                        <div class="trade-form-item">
-                            <div class="row">
-                                <div class="col-5">
-                                    <div class="dropdown bootstrap-select trade-form-select mb-1">
-                                        <select class="selectpicker trade-form-select mb-1" name="to">
-                                            <option value="usdc" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/usdc_logo.png' /></span>USDC</div>">USDC</option>
-                                            <option value="usdt" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/usdt_logo.png' /></span>USDT</div>">USDT</option>
-                                            <option value="dai" data-content="<div class='trade-form-item-select'><span><img src='./assets/images/dai_logo.png' /></span>DAI</div>">DAI</option>
-                                        </select>
-                                        <!-- <button type="button" tabindex="-1" class="btn dropdown-toggle btn-light" data-bs-toggle="dropdown" role="combobox" aria-owns="bs-select-2" aria-haspopup="listbox" aria-expanded="false" title="USDC">
-                                            <div class="filter-option">
-                                                <div class="filter-option-inner">
-                                                    <div class="filter-option-inner-inner">
-                                                        <div class="trade-form-item-select">
-                                                            <span><img src="./assets/images/usdc_logo.png"></span>USDC
-                                                        </div>
-                                                    </div>
-                                                </div> 
-                                            </div>
-                                        </button> -->
-                                        <div class="dropdown-menu ">
-                                            <div class="inner show" role="listbox" id="bs-select-2" tabindex="-1">
-                                                <ul class="dropdown-menu inner show" role="presentation"></ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="f-14 f-400" style="color: #9C9AF4;">Balance: <span class="user-to-bal">0.000000</span></div>
-                                </div>
-                                <div class="col-7">
-                                    <input class="trade-form-input" placeholder="0.0" name="amountOut" readonly="">
-                                    <div class="text-end">
-                                        <span class=" f-roboto f-14 f-400">$</span>
-                                        <span class="f-700 f-roboto f-14 to-volume" style="color: #9C9AF4;">0.0</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        </article>
                     </div>
-                    <div class="d-flex align-items-center justify-content-between ">
-                        <div class="fees-area">
-                            <div class="position-card-row-info">
-                                <p class="body">Fees</p>
-                            </div>
-                            <div class="position-card-row-balance">
-                                <p class="body body--link ">
-                                    <span class="" style=""><span class="swap-fee">0</span>%</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="button" class="btn-connect w-100 text-center button-approve" style="display:none;margin-bottom: 10px;">Approve</button>
-                    <button type="button" class="btn-connect w-100 text-center button-swap">Swap</button>
-
-                </article>
+                </div>
             </main>
             <div class="container" style="position: relative;">
                 <footer class="footer">
