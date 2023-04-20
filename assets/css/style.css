@@ -1087,5 +1087,26 @@ footer .social-area ul.social-list li:first-child {
   margin: 0;
   min-width: 0;
 }
+.home-page .why-choose-us {
+  padding-top: 200px;
+}
+.home-page .why-choose-us h1.title {
+  margin-bottom: 60px;
+}
+.home-page .why-choose-us .reason .reason-item .img {
+  margin-bottom: 24px;
+}
+.home-page .why-choose-us .reason .reason-item .img img {
+  width: 80px;
+  height: 80px;
+}
+.home-page .why-choose-us .reason .reason-item .description h4.title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.home-page .why-choose-us .reason .reason-item .description p {
+  font-size: 14px;
+}
 
 /*# sourceMappingURL=style.css.map */
