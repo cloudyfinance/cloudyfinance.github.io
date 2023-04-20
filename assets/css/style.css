@@ -941,4 +941,151 @@ footer .social-area ul.social-list li:first-child {
   text-align: right;
 }
 
+.home-page .launchpad .label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  box-sizing: border-box;
+  min-width: 0px;
+  padding: 2px 8px;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 12px;
+  background-color: rgb(234, 236, 239);
+  color: rgb(112, 122, 138);
+  z-index: 2;
+  border-radius: 4px;
+}
+.home-page .launchpad .label span i {
+  margin-right: 5px;
+}
+.home-page .launchpad h4.title {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1E2329;
+  margin-bottom: 48px;
+}
+.home-page .launchpad .img {
+  height: 268px;
+  overflow: hidden;
+  position: relative;
+}
+.home-page .launchpad .img img {
+  height: 100%;
+}
+.home-page .launchpad .img:hover img {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.home-page .launchpad .infor {
+  position: relative;
+}
+.home-page .launchpad .infor h4.name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+.home-page .launchpad .infor .label {
+  top: 0px;
+  left: 120px;
+}
+.home-page .launchpad .infor .label span i {
+  margin-right: 0px;
+  margin-left: 5px;
+}
+.home-page .launchpad .infor p {
+  margin-bottom: 32px;
+}
+.home-page .launchpad .infor .details {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.home-page .launchpad .infor .details .token-details {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  flex-direction: row;
+}
+.home-page .launchpad .infor .details .token-details .token-offered {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+}
+.home-page .launchpad .infor .details .token-details .token-infor {
+  box-sizing: border-box;
+  margin: 16px 0px 0px;
+  min-width: 0px;
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  padding-right: 8px;
+  width: auto;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+.home-page .launchpad .infor .details .token-details .token-infor .text {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  width: 160px;
+  color: rgb(71, 77, 87);
+}
+.home-page .launchpad .infor .details .token-details .token-infor .number {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  text-align: center;
+  color: rgb(30, 35, 41);
+}
+.home-page .launchpad .infor .details .end-time {
+  box-sizing: border-box;
+  margin: 20px 0px 0px;
+  min-width: 0px;
+  border-top: 1px solid rgb(234, 236, 239);
+  margin-top: 32px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  height: 60px;
+}
+.home-page .launchpad .infor .details .end-time .time {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: auto;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+.home-page .launchpad .infor .details .end-time .time .text {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 160px;
+}
+.home-page .launchpad .infor .details .end-time .time .number {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
